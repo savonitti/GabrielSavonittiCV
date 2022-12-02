@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="En-US">
+<html lang="pt-br">
   <!-- root - começão do código -->
   <head>
     <!-- Titulo / configurações -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
+    
 
     <meta charset="UTF-8" />
     <!-- Quais tipos de caracteres são aceitos no código -->
@@ -18,8 +15,10 @@
 
     <link rel="stylesheet" href="./styles.css"/>
     <link rel="stylesheet" href="./styleNav.css" />
+    <link rel="stylesheet" href="./classes.css" />
 
       <!-- Pacote de Fontes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"/>
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +41,7 @@
 
       <section class="entrada"  id="anchor0">
         <h1 style="margin: 0; font-size: 64px;">Gabriel Savonitti</h1>
-        <h3 style="font-size: 32px; margin: 0;">|Front End Developer|</h3>
+        <h3 style="font-size: 32px; margin: 0;">|Desenvolvedor Front End|</h3>
       </section>
 
       
@@ -97,26 +96,36 @@
             <a class="flex center" href="#anchor4">
               <div class="indicator indicatorBox4"></div>
               <span class="icon">
+                <ion-icon name="library-outline"></ion-icon>
+              </span>
+              <span class="text">Cursos</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a class="flex center" href="#anchor5">
+              <div class="indicator indicatorBox5"></div>
+              <span class="icon">
                 <ion-icon name="chatbubble-outline"></ion-icon>
               </span>
               <span class="text">Contact</span>
             </a>
           </li>
+
         </ul>
 
-       
-
         <div style="margin-right: 20px;" class="changeLanguage flex">
-            <form action="index.html">
-              <button type="submit" style="width: 80px; height: 33px; background-color: #3a3642; border-color: #645e6a59; border-radius: 3px; padding: 2px;">
-                  <a href="index.html">
-                    <h5 style="margin-top: 3px; display:flex; justify-content:center; gap:5px; color:#c7c7c7;">
-                      <img style="height:20px; width:25px" src="./assets/ptbr.jpg" alt="Language PT-BR" srcset="">  Pt-BR
-                    </h5>
-                  </a>
-              </button>
-            </form>
+          <form action="index.html">
+            <button type="submit" style="width: 80px; height: 33px; background-color: #3a3642; border-color: #645e6a59; border-radius: 3px; padding: 2px;">
+                <a href="index.html">
+                  <h5 style="margin-top: 3px; display:flex; justify-content:center; gap:5px; color:#c7c7c7;">
+                    <img style="height:20px; width:25px" src="./assets/ptbr.jpg" alt="Language PT-BR" srcset="">  Pt-BR
+                  </h5>
+                </a>
+            </button>
+          </form>
         </div>
+
       </nav>
 
       <section id="anchor1" class="shadowGlow">
@@ -150,7 +159,11 @@
                 </li>
 
                 <li>
-                  <a class="fa fa-github-square" target="_blank" href="https://github.com/savonitti">
+                  <a
+                    class="fa fa-github-square"
+                    target="_blank"
+                    href="https://github.com/savonitti"
+                  >
                   </a>
                 </li>
               </ul>
@@ -158,7 +171,14 @@
           </div>
 
           <div class="box5 flex center" id="caixa-sobre">
-            <h1>About</h1>
+
+            <div class="flex center setIcon">
+              <span class="icon">
+                <ion-icon name="person-outline"></ion-icon>
+              </span>
+              <h1>About</h1>
+            </div>
+            
             <h4>My Journey so far</h4>
             <h4 style="text-align: justify;">
               Fascinated by games, creation and legos since my childhood I played and created a lot, for my education I tried to learn more about games, being very interested in animation, character creation and world creation.              
@@ -178,7 +198,14 @@
 
       <section id="anchor2" class="SkillContainer shadowGlow">
         <div class="caixaSkills">
-          <h1 style="grid-column: 1;">My Skills</h1>
+          
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="stats-chart-outline"></ion-icon>
+            </span>
+            <h1 style="grid-column: 1;">Skills</h1>
+          </div>
+          
 
           <h4 style="text-align: justify; grid-column: 1; grid-row:2">
             Always looking to learn new languages, skills and more practical and faster methods, currently delving into NodeJs, React and Angular technologies.
@@ -187,9 +214,10 @@
             As a game developer, I bring in my luggage the concern for the user, for the feedback they will receive and how they will use the applications created by me. From my academic side, I bring an ability to adapt to new languages and writing formats. And as a teacher, I bring an ability to adapt to the public and work well in a team. 
             <br>
             <br>
-            Other than that, I have knowledge in the languages here:
+            Other than that, I have knowledge in the following languages:
             </h4>
-            <div class="skillbox" style="grid-column: 2; grid-row:2;justify-content: center;align-content: center;">
+            <div class="skillboxContainer">
+
               <div class="skillbox">
                 <div class="skill grid"></div>
                 <div class="skill_level grid" style="width: 80%; margin: 5px"></div>
@@ -242,7 +270,15 @@
 
       <section id="anchor3" class="shadowGlow">
         <div>
-          <h2>Educational Background</h2>
+
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="school-outline"></ion-icon>
+            </span>
+            <h2>Educational Background</h2>
+          </div>
+          
+
           <ul style="padding-right: 40px; padding-left: 40px;">
             <div>
               <h2>2019-2022 - PhD</h2>
@@ -254,44 +290,111 @@
               <br>
               <h2>2015-2017 - Master Degree</h2>
               <h4 style="text-align: justify;">
-                PUCSP - TIDD 
+                Pontifícia Universidade Católica de São Paulo (PUC-SP)
                 <br>
-                Master in Information Technology and Digital Design from PUC-SP in 2017, with CAPES scholarship; Research in Digital Games and Learning: Characteristics and Potential of Entertainment Games for Teaching English as a Second Language.
+                Master in Information Technology and Digital Design (TIDD), with CAPES scholarship; Research in Digital Games and Learning: Characteristics and Potential of Entertainment Games for Teaching English as a Second Language.
               </h4>
               <br>
-              <h2>2009-2012 - B.S.  </h2>
+              <h2>2009-2012 - B.S.</h2>
               <h4 style="text-align: justify;">
                 Pontifícia Universidade Católica de São Paulo (PUC-SP)
                 <br>
                 Bachelor in Game Design - 2012
               </h4>
               <br>
-              <h2>2009 - Elementary to High School </h2>
+              <h2>2009 - Elementary to High School</h2>
               <h4>
-                Colégio Santa Clara - 2009.
+                Colégio Santa Clara - 2009
               </h4>
             </div>
           </ul>
+
         </div>
       </section>
 
-      <section id="anchor4" class="contato shadowGlow">
-        <h1>Contact</h1>
-        <h4>Want to get in touch with me?</h4>
+      <section id="anchor4" class="shadowGlow">
+        <div>
+
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="library-outline"></ion-icon>
+            </span>
+            <h2>Cursos</h2>
+          </div>
+          
+
+          <ul style="padding-right: 40px; padding-left: 40px;">
+            <div>
+              <h2>On going</h2>
+              <h4 style="text-align: justify;">
+                Rocket Seat
+                <br>
+                Courses Explorer & Igniter - Core and advanced: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
+              </h4>
+              <h2>2022</h2>
+              <h4 style="text-align: justify;">
+                Rocket Seat
+                <br>
+                Courses Fundamentar & Especializar - Basics: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
+              </h4>
+              <h2>2012</h2>
+              <h4 style="text-align: justify;">
+                PUCSP 
+                <br>
+                Programming for Windows Phone with C# and Silverlight
+              </h4>
+              <h2>2010</h2>
+              <h4 style="text-align: justify;">
+                School of Art, Game and Animation - SAGA 
+                <br>
+                Course Play Game - Fundaments of game development
+              </h4>
+            </div>
+          </ul>
+
+        </div>
+      </section>
+
+      <section id="anchor5" class="contato shadowGlow">
+        <div class="flex" style="flex-direction: column;">
+          
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="chatbubble-outline"></ion-icon>
+            </span>
+            <h3>Contacts</h3>
+          </div>
+
+          <h4>Want to get in touch with me?</h4>
+
+        </div>
+
         <div class="container-de-cartao flex">
 
           <div class="subCaixa">
             <h3>Linkendin</h3>
-            <a href="https://www.linkedin.com/in/gabriel-savonitti-153b8176/?locale=en_US" style="color: #c7c7c7;">gabriel-savonitti</a>
+            <a href="https://www.linkedin.com/in/gabriel-savonitti-153b8176/" style="color: #c7c7c7;">gabriel-savonitti</a>
           </div>
 
           <div class="subCaixa">
-            <h3>E-mail</h3>
-            <h5>gabrielsavonitti@gmail.com</h5>
+            <div class="flex center setIcon">
+              <span class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </span>
+              <h3>E-mail</h3>
+              </div>
+            
+              <h5 style="margin: 0;">
+              <a href="mailto:gabrielsavonitti@gmail.com" style="color: #c7c7c7;">gabrielsavonitti@gmail.com</a>
+            </h5>
           </div>
 
         </div>
+
       </section>
+
     </main>
+
   </body>
+
 </html>

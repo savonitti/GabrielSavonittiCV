@@ -6,10 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
+    
 
     <meta charset="UTF-8" />
     <!-- Quais tipos de caracteres são aceitos no código -->
@@ -18,8 +15,10 @@
 
     <link rel="stylesheet" href="./styles.css"/>
     <link rel="stylesheet" href="./styleNav.css" />
+    <link rel="stylesheet" href="./classes.css" />
 
       <!-- Pacote de Fontes -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"/>
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -97,14 +96,23 @@
             <a class="flex center" href="#anchor4">
               <div class="indicator indicatorBox4"></div>
               <span class="icon">
+                <ion-icon name="library-outline"></ion-icon>
+              </span>
+              <span class="text">Cursos</span>
+            </a>
+          </li>
+
+          <li class="list">
+            <a class="flex center" href="#anchor5">
+              <div class="indicator indicatorBox5"></div>
+              <span class="icon">
                 <ion-icon name="chatbubble-outline"></ion-icon>
               </span>
               <span class="text">Contato</span>
             </a>
           </li>
-        </ul>
 
-       
+        </ul>
 
         <div style="margin-right: 20px;" class="changeLanguage flex">
             <form action="indexEng.html">
@@ -117,6 +125,7 @@
               </button>
             </form>
         </div>
+
       </nav>
 
       <section id="anchor1" class="shadowGlow">
@@ -162,7 +171,14 @@
           </div>
 
           <div class="box5 flex center" id="caixa-sobre">
-            <h1>Quem sou eu</h1>
+
+            <div class="flex center setIcon">
+              <span class="icon">
+                <ion-icon name="person-outline"></ion-icon>
+              </span>
+              <h1>Quem sou eu</h1>
+            </div>
+            
             <h4>Um pouco mais sobre mim e minha jornada</h4>
             <h4 style="text-align: justify;">
               Fascinado por jogos, criação e legos desde minha infância brinquei e criei muito, para minha formação procurei aprender mais sobre os jogos, me interessando muito por animação, criação de personagens e criação de mundos. 
@@ -182,18 +198,26 @@
 
       <section id="anchor2" class="SkillContainer shadowGlow">
         <div class="caixaSkills">
-          <h1 style="grid-column: 1;">Minhas habilidades</h1>
+          
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="stats-chart-outline"></ion-icon>
+            </span>
+            <h1 style="grid-column: 1;">Minhas habilidades</h1>
+          </div>
+          
 
-          <h4 style="text-align: justify; grid-column: 1; grid-row:2">
+          <h4 style="text-align: justify; grid-column: 1; grid-row:2; padding: 20px;">
             Sempre procurando aprender novas linguagens, habilidades e métodos mais práticos e rápidos, no momento me aprofundando nas tecnologias NodeJs, React e Angular. 
             <br>
             <br>
             Como desenvolvedor de jogos, trago em minha bagagem a preocupação com o usuário, os feedbacks que irá receber e como utilizará as aplicações criadas por mim. De minha parte acadêmica, trago uma facilidade de me adaptar a novas linguagens e formatos de escrita. E como professor trago uma facilidade de me adaptar ao público e trabalhar bem em equipe.
             <br>
             <br>
-            Fora isso tenho conhecimento nas linguagens aqui ao lado:
+            Fora isso tenho conhecimento nas linguagens a seguir:
             </h4>
-            <div class="skillbox" style="grid-column: 2; grid-row:2;justify-content: center;align-content: center;">
+            <div class="skillboxContainer">
+
               <div class="skillbox">
                 <div class="skill grid"></div>
                 <div class="skill_level grid" style="width: 80%; margin: 5px"></div>
@@ -246,25 +270,36 @@
 
       <section id="anchor3" class="shadowGlow">
         <div>
-          <h2>Formação</h2>
+
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="school-outline"></ion-icon>
+            </span>
+            <h2>Formação</h2>
+          </div>
+          
+
           <ul style="padding-right: 40px; padding-left: 40px;">
             <div>
               <h2>2019-2022 - Doutorado</h2>
               <h4 style="text-align: justify;">
                 USP - EEFE - 2022
-                Doutor em Educação Física pela Universidade de São Paulo (2022) Com a elaboração de uma ferramenta para análise da presença de valores (humanos e olimpicos) dentro de 6 dos maiores eSports atuais (LoL, Dota2, CS, Valorant, Apex Legends e Rocket League. Além de pesquisar a história da criação e evolução de cada um deles até se tornarem os jogos bem sucedidos que são. Pesquisa com bolsa da Capes.
+                <br>
+                Doutor em Educação Física pela Universidade de São Paulo (2022) Com a elaboração de uma ferramenta para análise da presença de valores (humanos e olimpicos) dentro de 6 dos maiores esportes eletrônicos atuais (LoL, Dota2, CS, Valorant, Apex Legends e Rocket League. Além de pesquisar a história da criação e evolução de cada um deles até se tornarem os jogos bem sucedidos que são. Pesquisa com bolsa da Capes.
               </h4>
               <br>
               <h2>2015-2017 - Mestrado</h2>
               <h4 style="text-align: justify;">
                 PUCSP - TIDD - 2017
+                <br>
                 Mestre em Tecnologia da Informação e Design Digital pela PUC-SP em 2017; Com pesquisa em Jogos Digitais e Aprendizagem: Características e Potencial dos Games de Entretenimento para o Ensino do Inglês como Segunda Língua.
               </h4>
               <br>
               <h2>2009-2012 - Tecnologo  </h2>
               <h4 style="text-align: justify;">
                 Desenvolvimento de Jogos - PUCSP - 2012
-                Formado pela PUC-SP em Design de Jogos Digitais em 2012, com TCC sendo um jogo de RPG 
+                <br>
+                Formado pela PUC-SP em Design de Jogos Digitais em 2012, com TCC sendo um jogo Hack'n'Slash com elementos de RPG. 
               </h4>
               <br>
               <h2>2009 - Ensino Médio </h2>
@@ -273,12 +308,67 @@
               </h4>
             </div>
           </ul>
+
         </div>
       </section>
 
-      <section id="anchor4" class="contato shadowGlow">
-        <h1>Contatos</h1>
-        <h4>Vamos conversar? Pode entrar em contato comigo assim:</h4>
+      <section id="anchor4" class="shadowGlow">
+        <div>
+
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="library-outline"></ion-icon>
+            </span>
+            <h2>Cursos</h2>
+          </div>
+          
+
+          <ul style="padding-right: 40px; padding-left: 40px;">
+            <div>
+              <h2>Atualmente</h2>
+              <h4 style="text-align: justify;">
+                Rocket Seat
+                <br>
+                Cursos Explorer & Igniter - fundamentos & avançado: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
+              </h4>
+              <h2>2022</h2>
+              <h4 style="text-align: justify;">
+                Rocket Seat
+                <br>
+                Trilha Fundamentar & Especializar - Basicos: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
+              </h4>
+              <h2>2012</h2>
+              <h4 style="text-align: justify;">
+                PUCSP 
+                <br>
+                Programação para Windows Phone em C# e Silverlight
+              </h4>
+              <h2>2010</h2>
+              <h4 style="text-align: justify;">
+                School of Art, Game and Animation - SAGA 
+                <br>
+                Curso Play Game - Fundamentos de desenvolvimento de jogos
+              </h4>
+            </div>
+          </ul>
+
+        </div>
+      </section>
+
+      <section id="anchor5" class="contato shadowGlow">
+        <div class="flex" style="flex-direction: column;">
+          
+          <div class="flex center setIcon">
+            <span class="icon">
+              <ion-icon name="chatbubble-outline"></ion-icon>
+            </span>
+            <h3>Contato</h3>
+          </div>
+
+          <h4>Vamos conversar? Pode entrar em contato comigo assim:</h4>
+
+        </div>
+
         <div class="container-de-cartao flex">
 
           <div class="subCaixa">
@@ -287,12 +377,24 @@
           </div>
 
           <div class="subCaixa">
-            <h3>E-mail</h3>
-            <h5>gabrielsavonitti@gmail.com</h5>
+            <div class="flex center setIcon">
+              <span class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </span>
+              <h3>E-mail</h3>
+            </div>
+            
+            <h5 style="margin: 0;">
+              <a href="mailto:gabrielsavonitti@gmail.com" style="color: #c7c7c7;">gabrielsavonitti@gmail.com</a>
+            </h5>
           </div>
 
         </div>
+
       </section>
+
     </main>
+
   </body>
+
 </html>
