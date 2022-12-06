@@ -106,7 +106,6 @@ body{
     
     .box5 {
         flex-direction: column;
-        padding: 20px !important;
     }
 
     section {
@@ -237,6 +236,9 @@ body{
 .gridBars{
     grid-area: bars;
     }
+.gridLanguage{
+    grid-area: language;
+}
 
 .caixaSkills{
    display: grid;
@@ -246,10 +248,11 @@ body{
    border-radius: 10px;
    box-sizing: border-box;
    grid-template-columns: 2fr 1fr;
-   grid-template-rows: 1fr 4fr;
+   grid-template-rows: 0.2fr 1.5fr 0.5fr;
    grid-template-areas:
    "header ." 
-   "gtext bars";
+   "gtext bars"
+   "language .";
 }
 
 /* .paddedColor{
@@ -368,7 +371,7 @@ body{
         100%{opacity: 1;}
     }
 
-    @media (min-width:320px) and (max-width:767px) {
+    @media (min-width:320px) and (max-width:920px) {
         .box5{
             width: 100%;
         }
@@ -379,8 +382,32 @@ body{
         {
             flex-direction: column;
         }
-        .navigation{
+        .navigation .icon{
             display: none !important;
+        }
+        .navigation {
+            width: 95%;
+            height: 40px;
+        }
+        .indicator{
+            top: 11px !important;
+            width: 65px;
+            height: 40px;
+        }
+        .navigation .ul {
+            width: 95%;
+            height: 40px;
+            margin: 0px
+        }
+        .navigation .li {
+            width: 95%;
+            height: 40px;
+        }
+        .navigation .text {
+            font-size: .60em !important;
+            letter-spacing: .02em !important;
+            top:20px !important;
+            background: none !important;
         }
         .caixaSkills{
             display: grid;
@@ -390,11 +417,12 @@ body{
             border-radius: 10px;
             box-sizing: border-box;
             grid-template-columns: 2fr;
-            grid-template-rows: 1fr, 3fr, 2fr;
+            grid-template-rows: 1fr, 3fr, 2fr, 1fr;
             grid-template-areas:
             "header" 
             "gtext"
-            "bars";
+            "bars"
+            "language";
          }
          .skillboxContainer{
             display: grid;

@@ -169,5 +169,119 @@ justify-content: space-evenly;
     background-color: #c5c0cc;
     opacity: 1;
 }
+.split{
+    width: 57.15%;
+}
+
+.split1{
+    width: 42.85%;
+}
 
 
+@media (min-width:711px) and (max-width:920px) {
+    .box5{
+        width: 100%;
+    }
+    div.Fotos-e-Redes{
+        flex-direction: column;
+    }
+    div.container-de-cartao
+    {
+        flex-direction: column;
+    }
+    .navigation .icon{
+        display: none !important;
+    }
+    .navigation {
+        width: 95%;
+        height: 40px;
+    }
+    .indicator{
+        top:-11px;
+        width: 65px;
+        height: 40px;
+    }
+    .navigation .ul {
+        width: 95%;
+        height: 40px;
+        margin: 0px
+    }
+    .navigation .li {
+        width: 95%;
+        height: 40px;
+    }
+    .navigation .span {
+        font-size: .60em !important;
+        letter-spacing: .02em !important;
+        top:1px !important;
+        background: none !important;
+    }
+    .split{
+        width: 57.15%;
+    }
+    
+    .split1{
+        width: 42.85%;
+    }
+}
+
+@media (min-width:1px) and (max-width:710px) {
+    header{
+        width: 100%;
+    }
+    .box5{
+        width: 100%;
+    }
+    div.Fotos-e-Redes{
+        flex-direction: column;
+    }
+    div.container-de-cartao
+    {
+        flex-direction: column;
+    }
+    .navigation .icon{
+        display: none !important;
+    }
+    .navigation {
+        width: 100%;
+        height: 110px;
+    }
+    .indicator{
+        top:-11px;
+        width: 65px;
+        height: 40px;
+    }
+    .navigation .ul {
+        width: 95%;
+        height: 40px;
+        margin: 0px
+    }
+    .navigation .li {
+        width: 95%;
+        height: 40px;
+    }
+    .navigation .span {
+        font-size: .60em !important;
+        letter-spacing: .02em !important;
+        top:1px !important;
+        background: none !important;
+    }
+    .split{
+        width: 100%;
+        justify-content: space-around;
+        width: 100%;    
+    }
+    
+    .split1{
+        width:100%;
+        justify-content: start;
+        gap: 10px;
+        margin-left: 6px;
+    }
+    .splitBox{
+        padding: 0;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+}

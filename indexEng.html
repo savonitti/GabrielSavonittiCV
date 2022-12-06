@@ -6,132 +6,182 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
 
     <meta charset="UTF-8" />
     <!-- Quais tipos de caracteres são aceitos no código -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Gabriel Savonitti</title>
 
-    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./styleNav.css" />
     <link rel="stylesheet" href="./classes.css" />
 
-      <!-- Pacote de Fontes -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"/>
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css"/>
-    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');</style>
-    
+    <!-- Pacote de Fontes -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+    </style>
 
     <!-- Pacote do Ionicons - Icones - Open Source -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <script defer src="./scrollAnimation.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 
   <body>
-    <header class="shadowGlow" style="border-radius: 30px;">
-     
-
-      <section class="entrada"  id="anchor0">
-        <h1 style="margin: 0; font-size: 64px;">Gabriel Savonitti</h1>
-        <h3 style="font-size: 32px; margin: 0;">|Desenvolvedor Front End|</h3>
+    <header class="shadowGlow" style="border-radius: 30px">
+      <section class="entrada" id="anchor0">
+        <h1 style="margin: 0; font-size: 64px">Gabriel Savonitti</h1>
+        <h3 style="font-size: 32px; margin: 0">|Front End Developer|</h3>
       </section>
-
-      
     </header>
 
     <main class="flex">
       <!--Navigator Menu ----------- -------------------------------------------->
-      <nav class="navigation flex center" style="z-index: 2; border-style: double; border-color: #3e2360;">
-        <ul class="flex" style="padding:0">
+      <nav
+        class="navigation flex center"
+        style="z-index: 2; border-style: double; border-color: #3e2360"
+      >
+        <ul class="flex splitBox" style="padding: 0 ">
 
-          <li class="list">
-            <a class="flex center" href="#anchor0">
-              <div class="indicator indicatorBox0"></div>
-              <span class="icon">
-                <ion-icon name="home-outline"></ion-icon>
-              </span>
-              <span class="text">Top</span>
-            </a>
-          </li>
+          <div class="split flex" style="justify-content: space-around; ">
 
-          <li class="list">
-            <a class="flex center" href="#anchor1">
-              <div class="indicator indicatorBox1"></div>
-              <span class="icon">
-                <ion-icon name="person-outline"></ion-icon>
-              </span>
-              <span class="text">About</span>
-            </a>
-          </li>
+            <li class="list">
+              <a class="flex center" href="#anchor0">
+                <div class="indicator indicatorBox0"></div>
+                <span class="icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </span>
+                <span class="text">Top</span>
+              </a>
+            </li>
+  
+            <li class="list">
+              <a class="flex center" href="#anchor1">
+                <div class="indicator indicatorBox1"></div>
+                <span class="icon">
+                  <ion-icon name="person-outline"></ion-icon>
+                </span>
+                <span class="text">About</span>
+              </a>
+            </li>
+  
+            <li class="list">
+              <a class="flex center" href="#anchor2">
+                <div class="indicator indicatorBox2"></div>
+                <span class="icon">
+                  <ion-icon name="stats-chart-outline"></ion-icon>
+                </span>
+                <span class="text">Skills</span>
+              </a>
+            </li>
 
-          <li class="list">
-            <a class="flex center" href="#anchor2">
-              <div class="indicator indicatorBox2"></div>
-              <span class="icon">
-                <ion-icon name="stats-chart-outline"></ion-icon>
-              </span>
-              <span class="text">Skills</span>
-            </a>
-          </li>
+            <div style="justify-content: center; position: relative; top: 13.5px; height: 33.5px;" class="changeLanguage flex">
+              <form action="indexEng.html">
+                <button
+                  type="submit"
+                  style="
+                    width: 80px;
+                    height: 33px;
+                    background-color: #3a3642;
+                    border-color: #645e6a59;
+                    border-radius: 3px;
+                    padding: 2px;
+                  "
+                >
+                  <a href="indexEng.html">
+                    <h5
+                      style="
+                        margin-top: 3px;
+                        display: flex;
+                        justify-content: center;
+                        gap: 5px;
+                        color: #c7c7c7;
+                      "
+                    >
+                      <img
+                        style="height: 20px; width: 25px"
+                        src="./assets/eng.jpg"
+                        alt="Language English"
+                        srcset=""
+                      />
+                      English
+                    </h5>
+                  </a>
+                </button>
+              </form>
+            </div>
 
-          <li class="list">
-            <a class="flex center" href="#anchor3">
-              <div class="indicator indicatorBox3"></div>
-              <span class="icon">
-                <ion-icon name="school-outline"></ion-icon>
-              </span>
-              <span class="text">Background</span>
-            </a>
-          </li>
+          </div>
+         
+          <div class="split1 flex" style="justify-content: space-around; ">
 
-          <li class="list">
-            <a class="flex center" href="#anchor4">
-              <div class="indicator indicatorBox4"></div>
-              <span class="icon">
-                <ion-icon name="library-outline"></ion-icon>
-              </span>
-              <span class="text">Cursos</span>
-            </a>
-          </li>
+            <li class="list">
+              <a class="flex center" href="#anchor3">
+                <div class="indicator indicatorBox3"></div>
+                <span class="icon">
+                  <ion-icon name="school-outline"></ion-icon>
+                </span>
+                <span class="text">Background</span>
+              </a>
+            </li>
+  
+            <li class="list">
+              <a class="flex center" href="#anchor4">
+                <div class="indicator indicatorBox4"></div>
+                <span class="icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                </span>
+                <span class="text">Courses</span>
+              </a>
+            </li>
+  
+            <li class="list">
+              <a class="flex center" href="#anchor5">
+                <div class="indicator indicatorBox5"></div>
+                <span class="icon">
+                  <ion-icon name="chatbubble-outline"></ion-icon>
+                </span>
+                <span class="text">Contact</span>
+              </a>
+            </li>
 
-          <li class="list">
-            <a class="flex center" href="#anchor5">
-              <div class="indicator indicatorBox5"></div>
-              <span class="icon">
-                <ion-icon name="chatbubble-outline"></ion-icon>
-              </span>
-              <span class="text">Contact</span>
-            </a>
-          </li>
-
+          </div>
+          
         </ul>
 
-        <div style="margin-right: 20px;" class="changeLanguage flex">
-          <form action="index.html">
-            <button type="submit" style="width: 80px; height: 33px; background-color: #3a3642; border-color: #645e6a59; border-radius: 3px; padding: 2px;">
-                <a href="index.html">
-                  <h5 style="margin-top: 3px; display:flex; justify-content:center; gap:5px; color:#c7c7c7;">
-                    <img style="height:20px; width:25px" src="./assets/ptbr.jpg" alt="Language PT-BR" srcset="">  Pt-BR
-                  </h5>
-                </a>
-            </button>
-          </form>
-        </div>
-
+      
       </nav>
 
       <section id="anchor1" class="shadowGlow">
         <div class="Fotos-e-Redes flex">
           <div class="box5 flex center">
-            <img src="https://github.com/savonitti.png" alt="Foto do cara com mais vontade de aprender no mundo"/>
+            <img
+              src="https://github.com/savonitti.png"
+              alt="Foto do cara com mais vontade de aprender no mundo"
+            />
 
             <div class="menuzinho-de-redes flex">
               <h4>My Socials</h4>
@@ -171,16 +221,15 @@
           </div>
 
           <div class="box5 flex center" id="caixa-sobre">
-
             <div class="flex center setIcon">
               <span class="icon">
                 <ion-icon name="person-outline"></ion-icon>
               </span>
               <h1>About</h1>
             </div>
-            
+
             <h4>My Journey so far</h4>
-            <h4 style="text-align: justify;">
+            <h4 style="text-align: justify; padding: 40px;">
               Fascinated by games, creation and legos since my childhood I played and created a lot, for my education I tried to learn more about games, being very interested in animation, character creation and world creation.              
               <br>
               <br>
@@ -198,166 +247,176 @@
 
       <section id="anchor2" class="SkillContainer shadowGlow">
         <div class="caixaSkills">
-          
           <div class="flex center setIcon">
             <span class="icon">
               <ion-icon name="stats-chart-outline"></ion-icon>
             </span>
-            <h1 style="grid-column: 1;">Skills</h1>
+            <h1 style="grid-column: 1">Skills</h1>
           </div>
-          
 
-          <h4 style="text-align: justify; grid-column: 1; grid-row:2">
-            Always looking to learn new languages, skills and more practical and faster methods, currently delving into NodeJs, React and Angular technologies.
-            <br>
-            <br>
-            As a game developer, I bring in my luggage the concern for the user, for the feedback they will receive and how they will use the applications created by me. From my academic side, I bring an ability to adapt to new languages and writing formats. And as a teacher, I bring an ability to adapt to the public and work well in a team. 
-            <br>
-            <br>
-            Other than that, I have knowledge in the following languages:
-            </h4>
-            <div class="skillboxContainer">
-
-              <div class="skillbox">
-                <div class="skill grid"></div>
-                <div class="skill_level grid" style="width: 80%; margin: 5px"></div>
-                <p class="grid" style="margin-top: -22px">C#</p>
-                <p class="grid longe" style="margin-top: -22px">80%</p>
-              </div>
-            
-              <div class="skillbox">
-                <div class="skill grid"></div>
-                <div
-                  class="skill_level grid"
-                  style="width: 80%; margin: 5px; border-end-end-radius: 25px"
-                ></div>
-                <p class="grid" style="margin-top: -22px">HTML5</p>
-                <p class="grid longe" style="margin-top: -22px">80%</p>
-              </div>
-              
-              <div class="skillbox">
-                <div class="skill grid"></div>
-                <div
-                  class="skill_level grid"
-                  style="width: 80%; margin: 5px; border-end-end-radius: 25px"
-                ></div>
-                <p class="grid" style="margin-top: -22px">CSS3</p>
-                <p class="grid longe" style="margin-top: -22px">80%</p>
-              </div>
-            
-              <div class="skillbox">
-                <div class="skill grid"></div>
-                <div
-                  class="skill_level grid"
-                  style="width: 70%; margin: 5px; border-end-end-radius: 25px"
-                ></div>
-                <p class="grid" style="margin-top: -22px">JavaScript</p>
-                <p class="grid longe" style="margin-top: -22px">70%</p>
-              </div>
-            
-              <div class="skillbox">
-                <div class="skill grid"></div>
-                <div
-                  class="skill_level grid"
-                  style="width: 50%; margin: 5px; border-end-end-radius: 25px"
-                ></div>
-                <p class="grid" style="margin-top: -22px">Selenium</p>
-                <p class="grid longe" style="margin-top: -22px">50%</p>
-              </div>
+          <h4
+            style="
+              text-align: justify;
+              grid-column: 1;
+              grid-row: 2;
+              padding: 20px;
+            "
+          >
+          Always looking to learn new languages, skills and more practical and faster methods, currently delving into NodeJs, React and Angular technologies.
+          <br>
+          <br>
+          As a game developer, I bring in my luggage the concern for the user, for the feedback they will receive and how they will use the applications created by me. From my academic side, I bring an ability to adapt to new languages and writing formats. And as a teacher, I bring an ability to adapt to the public and work well in a team. 
+          <br>
+          <br>
+          Other than that, I have knowledge in the following languages:
+          </h4>
+          <div class="skillboxContainer">
+            <div class="skillbox">
+              <div class="skill grid"></div>
+              <div
+                class="skill_level grid"
+                style="width: 80%; margin: 5px"
+              ></div>
+              <p class="grid" style="margin-top: -22px">C#</p>
+              <p class="grid longe" style="margin-top: -22px">80%</p>
             </div>
+
+            <div class="skillbox">
+              <div class="skill grid"></div>
+              <div
+                class="skill_level grid"
+                style="width: 80%; margin: 5px; border-end-end-radius: 25px"
+              ></div>
+              <p class="grid" style="margin-top: -22px">HTML5</p>
+              <p class="grid longe" style="margin-top: -22px">80%</p>
+            </div>
+
+            <div class="skillbox">
+              <div class="skill grid"></div>
+              <div
+                class="skill_level grid"
+                style="width: 80%; margin: 5px; border-end-end-radius: 25px"
+              ></div>
+              <p class="grid" style="margin-top: -22px">CSS3</p>
+              <p class="grid longe" style="margin-top: -22px">80%</p>
+            </div>
+
+            <div class="skillbox">
+              <div class="skill grid"></div>
+              <div
+                class="skill_level grid"
+                style="width: 70%; margin: 5px; border-end-end-radius: 25px"
+              ></div>
+              <p class="grid" style="margin-top: -22px">JavaScript</p>
+              <p class="grid longe" style="margin-top: -22px">70%</p>
+            </div>
+
+            <div class="skillbox">
+              <div class="skill grid"></div>
+              <div
+                class="skill_level grid"
+                style="width: 50%; margin: 5px; border-end-end-radius: 25px"
+              ></div>
+              <p class="grid" style="margin-top: -22px">Selenium</p>
+              <p class="grid longe" style="margin-top: -22px">50%</p>
+            </div>
+          </div>
+
+          <div class="flex gridLanguage" style="flex-direction: column; justify-content: start; align-items: start; padding-bottom: 10px;">
+            <div class="flex" style="flex-direction: row; gap: 20px;">
+              <span class="icon"
+                ><ion-icon name="globe-outline"></ion-icon
+              ></span>
+              <h1>Languages</h1>
+            </div>
+            <h4 style="margin: 0; margin-left: 20px;">Native Brazilian Portuguese.</h4>
+            <h4 style="margin: 0; margin-left: 20px;">Fluent English (C2).</h4>
+          </div>
         </div>
       </section>
 
       <section id="anchor3" class="shadowGlow">
         <div>
-
           <div class="flex center setIcon">
             <span class="icon">
               <ion-icon name="school-outline"></ion-icon>
             </span>
             <h2>Educational Background</h2>
           </div>
-          
 
-          <ul style="padding-right: 40px; padding-left: 40px;">
+          <ul style="padding-right: 40px; padding-left: 40px">
             <div>
               <h2>2019-2022 - PhD</h2>
-              <h4 style="text-align: justify;">
+              <h4 style="text-align: justify">
                 Escola de Educação Física e Esporte (EEFE) da Universidade de São Paulo (USP-SP) - 2022.
-                <br>
+                <br />
                 PhD in eletronic sports and human values from USP in 2022, with CAPES scholarship; Elaborating an instrument for the evaluation of indicators of values (humans and olympic) within 6 of the biggest eSports (CS, Valorant, Apex Legends, Rocket League, League of Legends and Dota2. Also undertanding the history of how each of these we're created and evolved into the sucessfull games they are.
+              
               </h4>
-              <br>
+              <br />
               <h2>2015-2017 - Master Degree</h2>
-              <h4 style="text-align: justify;">
+              <h4 style="text-align: justify">
                 Pontifícia Universidade Católica de São Paulo (PUC-SP)
-                <br>
+                <br />
                 Master in Information Technology and Digital Design (TIDD), with CAPES scholarship; Research in Digital Games and Learning: Characteristics and Potential of Entertainment Games for Teaching English as a Second Language.
               </h4>
-              <br>
-              <h2>2009-2012 - B.S.</h2>
-              <h4 style="text-align: justify;">
+              <br />
+              <h2>2009-2012 -  B.S.</h2>
+              <h4 style="text-align: justify">
                 Pontifícia Universidade Católica de São Paulo (PUC-SP)
-                <br>
-                Bachelor in Game Design - 2012
+                <br />
+                Bachelor in Game Design - 2012, the final exam was the creation of a game, a Hack'n'Slash with RPG elements.
               </h4>
-              <br>
+              <br />
               <h2>2009 - Elementary to High School</h2>
-              <h4>
-                Colégio Santa Clara - 2009
-              </h4>
+              <h4>Colégio Santa Clara</h4>
             </div>
           </ul>
-
         </div>
       </section>
 
       <section id="anchor4" class="shadowGlow">
         <div>
-
           <div class="flex center setIcon">
             <span class="icon">
               <ion-icon name="library-outline"></ion-icon>
             </span>
-            <h2>Cursos</h2>
+            <h2>Courses</h2>
           </div>
-          
 
-          <ul style="padding-right: 40px; padding-left: 40px;">
+          <ul style="padding-right: 40px; padding-left: 40px">
             <div>
               <h2>On going</h2>
-              <h4 style="text-align: justify;">
+              <h4 style="text-align: justify">
                 Rocket Seat
-                <br>
+                <br />
                 Courses Explorer & Igniter - Core and advanced: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
               </h4>
               <h2>2022</h2>
-              <h4 style="text-align: justify;">
+              <h4 style="text-align: justify">
                 Rocket Seat
-                <br>
-                Courses Fundamentar & Especializar - Basics: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
+                <br />
+                Courses Fundaments & Especialization - Basics: HTML5 | CSS3 | JavaScript | NodeJs | React | SQL 
               </h4>
               <h2>2012</h2>
-              <h4 style="text-align: justify;">
-                PUCSP 
-                <br>
+              <h4 style="text-align: justify">
+                PUCSP
+                <br />
                 Programming for Windows Phone with C# and Silverlight
               </h4>
               <h2>2010</h2>
-              <h4 style="text-align: justify;">
-                School of Art, Game and Animation - SAGA 
-                <br>
+              <h4 style="text-align: justify">
+                School of Art, Game and Animation - SAGA
+                <br />
                 Course Play Game - Fundaments of game development
               </h4>
             </div>
           </ul>
-
         </div>
       </section>
 
       <section id="anchor5" class="contato shadowGlow">
-        <div class="flex" style="flex-direction: column;">
-          
+        <div class="flex" style="flex-direction: column">
           <div class="flex center setIcon">
             <span class="icon">
               <ion-icon name="chatbubble-outline"></ion-icon>
@@ -366,14 +425,16 @@
           </div>
 
           <h4>Want to get in touch with me?</h4>
-
         </div>
 
         <div class="container-de-cartao flex">
-
           <div class="subCaixa">
             <h3>Linkendin</h3>
-            <a href="https://www.linkedin.com/in/gabriel-savonitti-153b8176/" style="color: #c7c7c7;">gabriel-savonitti</a>
+            <a
+              href="https://www.linkedin.com/in/gabriel-savonitti-153b8176/?locale=en_US"
+              style="color: #c7c7c7"
+              >gabriel-savonitti</a
+            >
           </div>
 
           <div class="subCaixa">
@@ -382,19 +443,16 @@
                 <ion-icon name="mail-outline"></ion-icon>
               </span>
               <h3>E-mail</h3>
-              </div>
-            
-              <h5 style="margin: 0;">
-              <a href="mailto:gabrielsavonitti@gmail.com" style="color: #c7c7c7;">gabrielsavonitti@gmail.com</a>
+            </div>
+
+            <h5 style="margin: 0">
+              <a href="mailto:gabrielsavonitti@gmail.com" style="color: #c7c7c7"
+                >gabrielsavonitti@gmail.com</a
+              >
             </h5>
           </div>
-
         </div>
-
       </section>
-
     </main>
-
   </body>
-
 </html>
