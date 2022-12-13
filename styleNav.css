@@ -104,67 +104,68 @@ justify-content: space-evenly;
     transition: 0.5s;
 }
 
-.navigation ul li:nth-child(1):hover .indicatorBox0{
+.navigation ul li:hover .indicatorBox0{
     box-shadow: 0px 3px 15px #3700c1;
     background-color: #3a3544;
     opacity: 1;
 }
-.navigation ul li:nth-child(1):active .indicatorBox0{
+.navigation ul li:active .indicatorBox0{
     box-shadow: 0px 3px 15px #d1d6d8;
     background-color: #c5c0cc;
     opacity: 1;
 }
 
-.navigation ul li:nth-child(2):hover .indicatorBox1{
+.navigation ul li:hover .indicatorBox1{
     box-shadow: 0px 3px 15px #3700c1;
     background-color: #3a3544;
     opacity: 1;
 }
-.navigation ul li:nth-child(2):active .indicatorBox1{
+.navigation ul li:active .indicatorBox1{
     box-shadow: 0px 3px 15px #d1d6d8;
     background-color: #c5c0cc;
     opacity: 1;
 }
 
-.navigation ul li:nth-child(3):hover .indicatorBox2{
+.navigation ul li:hover .indicatorBox2{
     box-shadow: 0px 3px 15px #3700c1;
     background-color: #3a3544;
     opacity: 1;
 }
-.navigation ul li:nth-child(3):active .indicatorBox2{
+.navigation ul li:active .indicatorBox2{
     box-shadow: 0px 3px 15px #d1d6d8;
     background-color: #c5c0cc;
     opacity: 1;
 }
 
-.navigation ul li:nth-child(4):hover .indicatorBox3{
+.navigation ul li:hover .indicatorBox3 {
     box-shadow: 0px 3px 15px #3700c1;
     background-color: #3a3544;
     opacity: 1;
+    
 }
-.navigation ul li:nth-child(4):active .indicatorBox3{
+.navigation ul li:active .indicatorBox3{
     box-shadow: 0px 3px 15px #d1d6d8;
     background-color: #c5c0cc;
     opacity: 1;
 }
 
-.navigation ul li:nth-child(5):hover .indicatorBox4{
+.navigation ul li:hover .indicatorBox4{
     box-shadow: 0px 3px 15px #3700c1;
     background-color: #3a3544;
     opacity: 1;
 }
-.navigation ul li:nth-child(5):active .indicatorBox4{
+.navigation ul li:active .indicatorBox4{
     box-shadow: 0px 3px 15px #d1d6d8;
     background-color: #c5c0cc;
     opacity: 1;
 }
 
-.navigation ul li:nth-child(6):hover .indicatorBox5{
+.navigation ul li:hover .indicatorBox5{
     box-shadow: 0px 3px 15px #3700c1;
     background-color: #3a3544;
     opacity: 1;
 }
-.navigation ul li:nth-child(6):active .indicatorBox5{
+.navigation ul li:active .indicatorBox5{
     box-shadow: 0px 3px 15px #d1d6d8;
     background-color: #c5c0cc;
     opacity: 1;
