@@ -171,10 +171,20 @@ justify-content: space-evenly;
     opacity: 1;
 }
 .split{
+    justify-content: space-around;
     width: 57.15%;
+}
+       
+.buttonChangeLanguage{
+    top: 13.5px;
+}
+
+.invisible{
+    position: absolute;
 }
 
 .split1{
+    justify-content: space-around;
     width: 42.85%;
 }
 
@@ -218,10 +228,19 @@ justify-content: space-evenly;
         background: none !important;
     }
     .split{
+        justify-content: space-around;
         width: 57.15%;
+    }
+    .buttonChangeLanguage{
+        top: 13.5px;
+    }
+
+    .invisible{
+        position: absolute;
     }
     
     .split1{
+        justify-content: space-around;
         width: 42.85%;
     }
 }
@@ -270,13 +289,27 @@ justify-content: space-evenly;
     .split{
         width: 100%;
         justify-content: space-around;
+        gap:30px;
+        margin-left: 6px;
         width: 100%;    
+    }
+
+    .buttonChangeLanguage{
+        top: 30px;
+        justify-self: end;
+        align-self: center;
+        z-index: 30;
+    }
+      .invisible{
+        position: relative;
+        height: 33px;
+        width: 80px;
     }
     
     .split1{
         width:100%;
-        justify-content: start;
-        gap: 10px;
+        justify-content: space-around;
+        gap: 30px;
         margin-left: 6px;
     }
     .splitBox{
